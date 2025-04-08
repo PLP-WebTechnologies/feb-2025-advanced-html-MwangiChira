@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week two Web asignment</title>
+</head>
+<body>
+    <h1>Welcome to Serena Hotel</h1>
+
+    <!-- Multimedia Elements -->
+    <h2>Hotel amenities</h2>
+    <video width="600" controls>
+        <source src="./Hotel amenities.mp4" type="video/mp4">
+    
+    </video>
+
+    <h2>Cozy Jazz Music</h2>
+    <audio controls>
+        <source src="./cozy jazz.mp3" type="audio/mp3">
+        
+    </audio>
+
+    <!-- Ordered List with Roman Numerals -->
+    <h2>We offer the following services</h2>
+    <ol type="I">
+        <li>Accomodation</li>
+        <li>State of the art meals</li>
+        <li>Confrence amenities</li>
+    </ol>
+
+    <!--Image from pexels.com-->
+    <h2>Our delicacies</h2>
+    <img src="https://images.pexels.com/photos/1234567/pexels-photo-1234567.jpeg" alt="Sample Image from Pexels" width="500">
+
+    <!-- Table of Contacts -->
+    <h2>Contacts Information</h2>
+    <table border="1" cellpadding="5" cellspacing="0">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Address</th>
+                <th>Mobile</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>John Ndemathew</td>
+                <td>123 kikuyu</td>
+                <td>+254734567890</td>
+                <td>john.nde@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Jane njeri</td>
+                <td>45 Githurai</td>
+                <td>+2547987653210</td>
+                <td>jane.njeri@yahoo.com</td>
+            </tr>
+            <tr>
+                <td>Michael Kamau</td>
+                <td>789 murima</td>
+                <td>+25411223345</td>
+                <td>kamaumbrown@hotmail.com</td>
+            </tr>
+            <tr>
+                <td>Emily Chebet</td>
+                <td>321 Ngong'</td>
+                <td>+25477889900</td>
+                <td>emilychebet@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Chris Njogu</td>
+                <td>654 Uthiru</td>
+                <td>+254755667788</td>
+                <td>chris.njogu@gemail.com</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- Registration Form -->
+    <h2>Registration Form</h2>
+    <form action="/submit" method="post">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password" required><br><br>
+
+        <label for="mobile">Mobile:</label><br>
+        <input type="tel" id="mobile" name="mobile" required><br><br>
+
+        <label for="address">Address:</label><br>
+        <textarea id="address" name="address" rows="4" cols="30"></textarea><br><br>
+
+        <button type="submit">Register</button>
+    </form>
+</body>
+</html>
